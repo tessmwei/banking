@@ -253,13 +253,13 @@ The duration groups, categorized by the length of the last contact during campai
 SELECT 
     contact,
     COUNT(*) AS total_contacts,
-    SUM(CASE WHEN poutcome = 'success' THEN 1 ELSE 0 END) AS contacts_with_poutcome_yes,
+    SUM(CASE WHEN poutcome = 'success' THEN 1 ELSE 0 END) AS contacts_with_poutcome_success,
     CAST(SUM(CASE WHEN poutcome = 'success' THEN 1 ELSE 0 END) AS FLOAT) / COUNT(*) AS success_rate
 FROM Banking
 GROUP BY contact;
 ```
 Contact methods significantly impact subscription success rates. Cellular interactions demonstrate the highest success rate at 4.73%, surpassing telephone contacts at 3.92%. Surprisingly, 'unknown' modes record a notably lower success rate at 0.09%. This highlights the effectiveness of cellular communication in driving higher subscription rates compared to other contact methods.
-|contact|total_contacts|contacts_with_poutcome_yes|success_rate|
+|contact|total_contacts|contacts_with_poutcome_success|success_rate|
 |-------|--------------|--------------------------|------------|
 |cellular|29285|1385|0.047293836435035|
 |telephone|2906|114|0.03922918100481762|
