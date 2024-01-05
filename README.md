@@ -1,9 +1,9 @@
 # banking
 ## Background
-Banking institutions rely on understanding their customer base for strategic decision-making and sustaining financial growth. This comprehension is pivotal, not only for tailoring services but also for fostering trust and loyalty. From a bank's perspective, garnering deposits signifies stability, liquidity, and the ability to offer loans, while for customers, selecting a bank involves trust, security, and potential returns on their investments.
+This project delves into customer behaviour analysis within banking institutions, aiming to decipher patterns crucial for strategic decisions and financial sustainability. Understanding customers isn't just about tailoring services; it's about fostering trust and loyalty. For banks, attracting deposits signifies stability and liquidity, enabling loan provisions. Conversely, customers seek trust, security, and potential returns when selecting a bank. This project sheds light on these dynamics, aiding banks in optimizing strategies for better customer engagement and long-term financial viability.
 
 ## The Dataset
-[Source](https://huggingface.co/datasets/Andyrasika/banking-marketing)
+[Source](https://www.kaggle.com/datasets/thedevastator/bank-term-deposit-predictions/data)
 
 The "Direct Marketing Campaigns for Bank Term Deposits" dataset encapsulates critical insights derived from direct marketing initiatives carried out by a Portuguese banking institution. Centred on phone-call campaigns, the primary aim was to gauge customers' interest in term deposits. This dataset encompasses multifaceted attributes:
 - Age: The age of the customer.
