@@ -1,6 +1,6 @@
 # banking
 ## Background
-This project delves into customer behaviour analysis within banking institutions, aiming to decipher patterns crucial for strategic decisions and financial sustainability. Understanding customers isn't just about tailoring services; it's about fostering trust and loyalty. For banks, attracting deposits signifies stability and liquidity, enabling loan provisions. Conversely, customers seek trust, security, and potential returns when selecting a bank. This project sheds light on these dynamics, aiding banks in optimizing strategies for better customer engagement and long-term financial viability.
+This project delves into customer behaviour analysis within banking institutions, aiming to decipher patterns crucial for strategic decisions and financial sustainability. Understanding customers fosters trust and loyalty. For banks, attracting deposits signifies stability and liquidity, enabling loan provisions. Conversely, customers seek trust, security, and potential returns when selecting a bank. This project sheds light on these dynamics, aiding banks in optimizing strategies for better customer engagement and long-term financial viability.
 
 ## The Dataset
 [Source: Kaggle](https://www.kaggle.com/datasets/thedevastator/bank-term-deposit-predictions/data)
